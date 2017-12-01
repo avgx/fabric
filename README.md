@@ -9,3 +9,11 @@ By using this you agreed on this terms: https://fabric.io/privacy
 Full manual you can find here: https://fabric.io/kits/ios/crashlytics/manual-install
 
 Cocoapods support: https://fabric.io/kits/ios/crashlytics/install
+
+## USAGE:
+
+In **Cartfile** add this line:
+
+`binary "https://raw.githubusercontent.com/JakubMazur/fabric/master/fabric.json"`
+
+Then it will work like any other carthage dependency.
